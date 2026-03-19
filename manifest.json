@@ -1,0 +1,32 @@
+{
+    "name": "Walking Pet",
+    "description": "Walking pet on your page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "images/*"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ]
+}
