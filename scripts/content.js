@@ -14,8 +14,8 @@ pet.style.cssText = `
 `;
 document.body.appendChild(pet);
 
-let nowX = Math.random() * (window.innerWidth - 100);
-let nowY = Math.random() * (window.innerHeight - 100);
+let nowX = Math.random() * (window.innerWidth - 30);
+let nowY = Math.random() * (window.innerHeight - 30);
 let dx = (Math.random() - 0.5) * 5;
 let dy = (Math.random() - 0.5) * 5;
 
